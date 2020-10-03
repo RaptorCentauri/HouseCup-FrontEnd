@@ -13,7 +13,7 @@ let displayScore = (name='Team Name', score = 0) => {
 
 
     let teamElement = document.createElement(`h3`)
-    teamElement.textContent = `${name}: ${score}`
+    teamElement.textContent = `${score}`
     scoresContainer.append(teamLogo)
     scoresContainer.append(teamElement);
 }
